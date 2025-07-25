@@ -45,20 +45,23 @@ class Kalkulator {
             angka1 = dapatkanInputAngka("Masukkan angka pertama: ");
             angka2 = dapatkanInputAngka("Masukkan angka kedua: ");
             hasil = angka1 + angka2;
+            //Menampilkan hasil penjumlahan
             cout << "Hasil: " << angka1 << " + " << angka2 << " = " << hasil << endl;
             break;
 
         case 2:
             angka1 = dapatkanInputAngka("Masukkan angka pertama: ");
             angka2 = dapatkanInputAngka("Masukkan angka kedua: ");
-            hasil = angka1 + angka2;
+            //Menampilkan hasil pengurangan
+            hasil = angka1 - angka2;
             cout << "Hasil: " << angka1 << " - " << angka2 << " = " << hasil << endl;
             break;
         
         case 3:
             angka1 = dapatkanInputAngka("Masukkan angka pertama: ");
             angka2 = dapatkanInputAngka("Masukkan angka kedua: ");
-            hasil = angka1 + angka2;
+            //Menampilkan hasil perkalian
+            hasil = angka1 * angka2;
             cout << "Hasil: " << angka1 << " * " << angka2 << " = " << hasil << endl;
             break;
 
@@ -67,6 +70,7 @@ class Kalkulator {
             angka2 = dapatkanInputAngka("Masukkan angka kedua: ");
             if (angka2 != 0) {
                 hasil = angka1 / angka2;
+                //Menampilkan hasil pembagian
                 cout << "Hasil: " << angka1 << " / " << angka2 << " = " << hasil << endl;
             } else {
                 cout << "Error: Tidak bisa membagi dengan nol!" << endl;
