@@ -19,7 +19,7 @@ class Kalkulator {
         cout << "Pilih operasi (1-5): ";
       }  
 
-      // Fungsi untuk mendapatkan inpuut angka dari pengguna
+      // Fungsi untuk mendapatkan input angka dari pengguna
       double dapatkanInputAngka(const string& prompt) {
         double angka;
         while(true) {
@@ -83,7 +83,7 @@ class Kalkulator {
         }
       }
 
-      // Fungsi uutama untuk menjalankan kalkulator dalam loop
+      // Fungsi utama untuk menjalankan kalkulator dalam loop
       void jalankan() {
         int pilihan;
         do {
